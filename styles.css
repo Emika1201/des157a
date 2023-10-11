@@ -38,7 +38,7 @@ nav ul{
     list-style-type: none;
     background-color:rgb(210, 225, 247);
     padding:198.7px;
-    padding-bottom: 245px;
+    padding-bottom: 268px;
     padding-top:20px;
     margin:0px;
 }
@@ -48,7 +48,7 @@ nav ul li a{
     margin:10px ;
     text-decoration:none;
     font-family: 'Signika', sans-serif;
-    font-weight: 50px;
+    font-weight: 50;
     font-size: 20px;
     padding: 15px 0 ;
     transition: background-color 0.3s ease-in;
@@ -80,13 +80,14 @@ li.dropdown{
 
 footer{
     font-family: 'Inria Sans', sans-serif;
-    padding: 24px;
+    padding: 20px;
+    padding-top: 5px;
     text-align: center;
     color:white;
     background: rgb(0, 0, 0);
 }
 
 a:visited{
-    color:rgb(61, 83, 206);
+     color:rgb(29, 76, 180);
  }
 
