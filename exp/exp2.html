@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        #paragraph{
+            color:rgb(116, 117, 117);
+            font-size:14px;
+        }
+    </style>
+<h1>Experiment 2</h1>
+<body>
+    <label for = "fname">What is your Name?</label>
+    <input type = "text" name = "fname" id ="fname" required>
+    <button onclick = "displaysayGreeting()">Enter</button> 
+
+    <p id = "sayGreeting"></p>
+
+    <label for = "rgbColor">Please type in your background color of choice:</label>
+    <input type = "text" id = "rgbColor">
+    <button onclick = "changeReturnBackgroundColor()">Change</button>
+
+    <p id = "paragraph">(e.g of colors: pink, gray, red, magenta, green)</p>
+
+
+   <script>
+    function displaysayGreeting(){ //the function that helps output a response.
+        var fname = document.getElementById("fname").value;
+        if(fname){ //when a name is inputted then it would welcome the user.
+            document.getElementById("sayGreeting").textContent = "Welcome to Expiriment 2, " + fname + "!"
+        }
+        else{ //if no name is inputted it would tell the user that nothing was inputted.
+            document.getElementById("sayGreeting").textContent = "Please include your name :)"
+        }
+    }
+
+    function changeReturnBackgroundColor(){
+        var rgbColor = document.getElementById("rgbColor").value; //using the .getElementById to help change the style of the webpage.
+        document.body.style.backgroundColor = rgbColor; //included "body" so they know it is the body that is changing color rather than the text.
+        return rgbColor; // returns desired value of color the user enters.
+    }
+
+
+    
+   </script>
+
+    
+</body>
+</html>
