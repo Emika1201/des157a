@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
+main{
+    width: 50%;
+    padding:20px;
+    margin: auto;
+    background-color: rgb(206, 235, 246);
+}
+h1{
+    width: 50%;
+    padding:20px;
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top:10px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    color:rgb(41, 67, 123);
+    font-weight: 800;
+    background: rgb(169,255,249);
+    background: linear-gradient(0deg, rgba(169,255,249,1) 0%, rgba(91,255,237,1) 14%, rgba(121,233,255,1) 41%, rgba(147,215,255,1) 60%, rgba(178,192,255,1) 100%);
+}
+
+h2{ 
+    padding:20px;
+    padding-left:5px;
+    padding-bottom:5px;
+    text-align:left;
+    font-size: 20px;
+    color:rgb(21, 39, 103);
+    text-decoration:underline;
+    font-family: 'Signika', sans-serif;
+    margin-left:70px;
+}
+h3{
+    color:rgb(21, 39, 103);
+    font-family: 'Signika', sans-serif;
+    margin-left:70px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif; 
+    margin-left:70px;
+    margin-right:70px;
+
+
+ 
+}
+
+date{
+    font-size:18px;
+    font-family: 'Signika', sans-serif;
+    margin-left:70px;
+}
+
+
+a{
+    text-decoration:none;
+    padding:5px;
+    font-family: 'Signika', sans-serif;
+
+}
+
+a:visited{
+    color:rgb(90, 131, 255);
+}
