@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link href = "styles.css" rel = "stylesheet">
+    <script src = "script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Metal+Mania&family=Philosopher:ital,wght@1,700&display=swap');
+    </style>
+
+</head>
+<body>
+    <header>Mad Libs</header>
+    <div class = "center">
+        <img src = "images/sun.png" alt = "Centered" height  = "200" width ="200">
+
+    </div>
+
+    <main>
+        <form id = "myForm">
+            <ul>
+                <li>
+                    <label for = "noun1">Provide a Noun:</label>
+                    <input type = "text" id = "noun1" >
+                </li>
+                <li>
+                    <label for = "noun2">Provide another Noun:</label>
+                    <input type = "text" id = "noun2" >
+                </li>
+                <li>
+                    <label for = "adj">Provide a Adjective:</label>
+                    <input type = "text" id = "adj" >
+                </li>
+                <li>
+                    <label for = "verb">Provide a Verb:</label>
+                    <input type = "text" id = "verb" >
+                </li>
+                <li>
+                    <label for = "verb2">Provide another Verb:</label>
+                    <input type = "text" id = "verb2" >
+                </li>
+                <li>
+                    <input type = "submit" value ="Send">
+                </li>
+            </ul>
+        </form>
+        <article id="madlib"></article>
+    </main>
+    
+</body>
+</html>
