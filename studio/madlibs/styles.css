@@ -1,10 +1,11 @@
 header {
     text-align: center;
+    text-shadow: 4px 5px 5px rgb(91, 170, 240);
     padding-top: 30px;
     display: auto;
     font-family: 'Philosopher', sans-serif;
-    font-size: 90px;
-    color: rgb(198, 255, 224)
+    font-size: 85px;
+    color: rgb(202, 249, 223)
 
 }
 body{
@@ -22,6 +23,8 @@ body{
     list-style: none;
     padding: 0;
     text-align: center;
+
+
    
 }
 
@@ -34,9 +37,20 @@ body{
 .center{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .center img {
     max-width:100%;
     max-height:100%;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
