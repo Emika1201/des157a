@@ -14,17 +14,24 @@ body{
     height: 100vh;
     padding: 0;
     margin: 0;
-    overflow: none;
     font-family: 'Cormorant Garamond', serif;
+    font-weight:bolder;
+    font-size: 20px;
+    overflow: hidden
 
   
 }
+
+#myForm{
+    width:fit-content;
+    margin: auto;
+    
+}
+
 #myForm ul{
     list-style: none;
-    padding: 0;
-    text-align: center;
-
-
+    text-align: left;
+    
    
 }
 
@@ -53,4 +60,36 @@ body{
     100%{
         transform: translateY(0px);
     }
+}
+.forest{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   z-index: -1;
+   opacity: 85%;
+  
+}
+
+.overlay {
+    position:fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(203, 247, 204. 1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+
+}
+
+#storyContent{
+    background-color: rgb(203, 247, 204);
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 85%;
+    text-align:left;
 }

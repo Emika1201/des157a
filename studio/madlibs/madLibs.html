@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <header>MAD LIBS</header>
+    <header>MAD LIBS FOREST</header>
     <div class = "center">
         <img id = "sunPicture" src = "images/sun.png" alt = "Centered" height  = "180" width ="180">
 
@@ -22,32 +22,52 @@
         <form id = "myForm">
             <ul>
                 <li>
-                    <label for = "noun1">Provide a Noun:</label>
-                    <input type = "text" id = "noun1" >
+                    <label for = "noun1">Provide a Noun (Person):</label>
+                    <input type = "text" id = "noun1" required>
                 </li>
                 <li>
-                    <label for = "noun2">Provide a Noun:</label>
-                    <input type = "text" id = "noun2" >
+                    <label for = "adj1">Provide a Adjective:</label>
+                    <input type = "text" id = "adj1"  required>
                 </li>
                 <li>
-                    <label for = "adj">Provide a Adjective:</label>
-                    <input type = "text" id = "adj" >
+                    <label for = "adj2">Provide a Adjective (Type of Smell):</label>
+                    <input type = "text" id = "adj2" required >
                 </li>
                 <li>
-                    <label for = "verb">Provide a Verb:</label>
-                    <input type = "text" id = "verb" >
+                    <label for = "verb1">Provide a Verb:</label>
+                    <input type = "text" id = "verb1"  required>
+                </li>
+                <li>
+                    <label for = "noun2">Provide a Noun (Animal):</label>
+                    <input type = "text" id = "noun2"  required>
                 </li>
                 <li>
                     <label for = "verb2">Provide a Verb:</label>
-                    <input type = "text" id = "verb2" >
+                    <input type = "text" id = "verb2" required>
+                </li>
+                <li>
+                    <label for = "adj3">Provide a Adjective (Type of Emotion):</label>
+                    <input type = "text" id = "adj3" required>
                 </li>
                 <li>
                     <input type = "submit" value ="Send">
                 </li>
-            </ul>
+            </ul>    
         </form>
-        <article id="madlib"></article>
-    </main>
-    
+
+        <div id = "overlay" class = "hidden">
+            <div id = "storyContent" class = "overlay-content">
+            
+            </div>
+            <button class="close">close</button>
+        </div>
+
+        <div class = "forest">
+            <img id = "forestPicture" src = "images/forest.png" alt = "tree1" height  = "100%" width ="100%">
+        </div> 
+
+    </main> 
+
+
 </body>
 </html>
