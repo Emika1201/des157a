@@ -61,6 +61,21 @@ a{
 
 }
 
+figure {
+    padding: 65px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: rgb(116, 152, 200);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
 a:visited{
     color:rgb(90, 131, 255);
 }
