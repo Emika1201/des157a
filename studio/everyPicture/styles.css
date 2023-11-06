@@ -1,0 +1,23 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: none;
+
+  }
+main{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive; 
+    font-size: 50px;
+
+}
+
+article{
+    margin: auto;
+    width:50%;
+    padding-top: 50px;
+    text-align: center;
+
+}
