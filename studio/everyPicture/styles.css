@@ -10,22 +10,32 @@ main{
     text-align: center;
     margin-bottom: 100px;
 }
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color:rgb(78, 118, 210);
+}
 
 
-h1,h2{
+h1{
+    display:block;
+    background-color: rgb(214, 227, 230, 0.7);
     font-family: 'Indie Flower', cursive; 
     font-size: 50px;
 
 }
 
 h2{
-    font-family: 'Indie Flower', cursive; 
-    padding-left:120px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px; 
+    padding-left:50px;
     color:rgb(78, 118, 210);
 
 
 }
 section{
+    position:relative;
+    height:600px;
    margin:20px;
    text-align:left;
    padding-bottom: 50px;
@@ -35,17 +45,74 @@ section h2{
     margin-bottom:10px;
 }
 
-section img {
+/*section img {
     display:block;
     margin: 10px;
     padding-left: 100px;
-}
+}*/
 
 
 article{
     margin: auto;
     width:50%;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 
 }
+ #arrow{
+    bottom: 20px;
+    right: 20px;
+    animation: floatArrow 2s ease-in-out infinite; /* allows the arrow to create a smooth flow going up and down*/
+    padding-top:80px;
+ }
+
+ @keyframes floatArrow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-80px);
+    }
+}
+
+.column{
+    position:absolute;
+    left:0;
+ }
+.content{
+    /*float:right;*/
+    position:absolute;
+    right:0;
+    padding:10px;
+    line-height: 15px;
+    
+
+}
+
+.column img{
+    padding-top: 20px;
+    padding-left:100px;
+    transition: transform 0.5s ease; /* Add smooth slide to the right*/
+    transform: translateX(0); 
+}
+
+.content img{
+    padding-top: 55px;
+   
+}
+
+footer{
+    font-family: 'Caveat', cursive;
+    font-size:20px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom:20px;
+    text-align: center;
+    color:white;
+    background: rgb(223, 231, 255, 20);
+}
+
+a:visited{
+     color:rgb(255, 255, 255);
+ }
+
