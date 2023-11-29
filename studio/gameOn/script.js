@@ -41,28 +41,6 @@
         index: 0, //arrays have index (which player I am looking at)
         gameEnd: 29
     };
-/*//This gets the current player: 
-    gameData.players[gameData.index]
-
-//This gets the first die and the second die: 
-    gameData.dice[gameData.roll1-1]
-    gameData.dice[gameData.roll2-1]
-
-//This gets the score of the current player: 
-    gameData.score[gameData.index]
-
-//This gets the index, or turn
-    gameData.index
-
-//This gets the individual dice values and the added dice value
-    gameData.roll1
-    gameData.roll2
-    gameData.rollSum
-
-//This gets the winning threshold
-    gameData.rollSum*/
-
-    //console.log(gameData.players[gameData.index]);
 
 startGame.addEventListener("click",function(){
 
