@@ -1,6 +1,23 @@
 (function(){
     'use strict'
     console.log('reading JS');
+    document.addEventListener("DOMContentLoaded", function() {
+        // Function to show the overlay
+        function showOverlay() {
+            const overlay = document.getElementById("overlay");
+            overlay.style.display = "flex";
+        }
+
+        // Function to hide the overlay
+        function hideOverlay() {
+            const overlay = document.getElementById("overlay");
+            overlay.style.display = "none";
+        }
+
+        // Add click event listener to containerTwo
+        const containerTwo = document.querySelector(".containerTwo");
+        containerTwo.addEventListener("click", showOverlay);
+    });
 
     const startGame = document.querySelector('#startgame');
     const gameControl = document.querySelector('#gamecontrol');
@@ -9,7 +26,7 @@
     const actionArea = document.querySelector('#actions');
 
     const gameData = {
-        dice: ['images/1die.jpg', 'images/2die.jpg', 'images/3die.jpg', 'images/4die.jpg', 'images/5die.jpg', 'images/6die.jpg'],
+        dice: ['images/1die.png', 'images/2die.png', 'images/3die.png', 'images/4die.png', 'images/5die.png', 'images/6die.png'],
         players: ['player 1', 'player 2'],
         score: [0, 0],
         roll1: 0,
