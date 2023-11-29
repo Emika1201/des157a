@@ -27,7 +27,7 @@
                 30 points or more is the winner.</p>
 
                 <p>If a player rolls two "1's"(snake eyes), then that player's points resets to zero and they have to start over.</p>
-                <button onclick="hideOverlay()">Close</button>
+                <button id = "hideOverlay">Close</button>
             </div>
 
 
@@ -42,6 +42,8 @@
     </div>
     <div id="actions"></div>
     <div id="score"></div>
+    <audio id = "clickSound" src = "sounds/click.wav" preload = "auto"></audio>
+    <audio id = "winnerSound" src = "sounds/win.wav" preload = "auto"></audio>
     
 </body>
 </html>

@@ -4,6 +4,7 @@ body {
     padding: 50px;
     line-height: 1.5em;
     background-color: black;
+    height: 100vh;
 
 }
 
@@ -118,3 +119,4 @@ div {
     text-align:center;
     color:white
 }
+
