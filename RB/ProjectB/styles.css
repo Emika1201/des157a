@@ -16,6 +16,13 @@ h2{
     color: rgb(198, 243, 255);
 }
 
+h3{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: rgb(226, 255, 202);
+    text-decoration: overline;
+}
+
 
 p{
     color: white;
@@ -55,4 +62,5 @@ footer{
 
 a:visited{
     color:rgb(236, 238, 243);
+    
 }
