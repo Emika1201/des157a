@@ -59,8 +59,8 @@ startGame.addEventListener("click",function(){
 
 function setUpTurn(){
     game.innerHTML = `<p>Roll the Dice for the ${gameData.players[gameData.index]}</p>`;
-    actionArea.innerHTML = '<button id = "roll>Roll the Dice</button>';
-    document.getElementById('roll'),addEventListener('click', function(){
+    actionArea.innerHTML = '<button id="roll">Roll the Dice</button>';
+    document.getElementById('roll').addEventListener('click', function(){
         //console.log("roll the dice!");
         throwDice();
     });
@@ -101,7 +101,7 @@ function throwDice(){
         });
 
         document.getElementById('pass').addEventListener('click',function(){
-            gameData.index ? (gameData.index = 0) : (gameData.index = 1);
+            gameData.index ? (gameData.index= 0) : (gameData.index = 1);
             setUpTurn();
         });
 
